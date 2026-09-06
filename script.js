@@ -6,9 +6,10 @@ searchForm.addEventListener("submit", function (event) {
 
     const query = searchBox.value.trim();
 
-    if (query === "") return;
+    if (!query) return;
 
-    const url = "https://www.google.com/search?q=" + encodeURIComponent(query);
-
-    window.open(url, "_blank");
+    window.open(
+        "https://www.google.com/search?q=" + encodeURIComponent(query),
+        "_blank"
+    );
 });
