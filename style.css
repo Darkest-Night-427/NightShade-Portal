@@ -108,3 +108,61 @@ button:hover {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+.results-page {
+    display: block;
+}
+
+.results-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 6%;
+    border-bottom: 1px solid #24182f;
+}
+
+.logo {
+    color: #d8c5f5;
+    text-decoration: none;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.results-header form {
+    flex: 1;
+    max-width: 700px;
+    margin: 0;
+}
+
+.results {
+    width: min(800px, 90%);
+    margin: 35px auto;
+}
+
+.result-count {
+    color: #8e7c9e;
+}
+
+.result {
+    margin: 30px 0;
+}
+
+.result-url {
+    color: #8d6baa;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.result a {
+    color: #c59cff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.result a:hover {
+    text-decoration: underline;
+}
+
+.result p {
+    color: #aaa0b5;
+    line-height: 1.5;
+}
