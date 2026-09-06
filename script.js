@@ -8,8 +8,6 @@ searchForm.addEventListener("submit", function (event) {
 
     if (!query) return;
 
-    window.open(
-        "https://www.google.com/search?q=" + encodeURIComponent(query),
-        "_blank"
-    );
+    window.location.href =
+        "results.html?q=" + encodeURIComponent(query);
 });
